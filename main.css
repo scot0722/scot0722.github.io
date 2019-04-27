@@ -1,0 +1,143 @@
+body {
+	background-color: grey;
+	font-family: 'Hiragino Sans', sans-serif;
+}
+
+h1 {
+	font-size: 36pt;
+	font-weight: lighter;
+}
+
+h1:hover {
+	font-style: italic;
+}
+
+h2 {
+	font-size: 18pt;
+	font-weight: 200;
+}
+
+h2:hover {
+	font-style: italic;
+}
+
+p {
+	font-weight: 200;
+}
+
+.main {
+	background-color: white;
+	box-shadow: -10px 10px 5px #555;
+	width: 8.5in;
+	height: 11.75in;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.375in;
+	margin-bottom: 0.375in;
+}
+
+.header br {
+	display: block;
+   	margin: -13px;
+}
+
+.header {
+	display: inline-block;
+	margin-bottom: -20px;
+	margin-top: -25px
+}
+
+#box {
+	background-color: rgb(113,131,182);
+	width: 8.5in;
+	height: 0.26in;
+}
+
+.header, .education, .designprojects, .experience, .designskills {
+	padding-left: 0.5in;
+	padding-right: 0.25in
+}
+
+#smallboxed {
+	display:inline-block;
+	float: right;
+	background-color: rgb(113,131,182);
+	width: 6.62in;
+	height: 0.0404in;
+	margin-top: 37px;
+}
+
+#smallboxdes {
+	display:inline-block;
+	float: right;
+	background-color: rgb(113,131,182);
+	width: 5.94in;
+	height: 0.0404in;
+	margin-top: 18px;
+}
+
+#smallboxexp {
+	display:inline-block;
+	float: right;
+	background-color: rgb(113,131,182);
+	width: 4.3in;
+	height: 0.0404in;
+	margin-top: 18px;
+}
+
+#smallboxskills {
+	display:inline-block;
+	float: right;
+	background-color: rgb(113,131,182);
+	width: 6.3in;
+	height: 0.0404in;
+	margin-top: 18px;
+}
+
+#smallbox2top {
+	display: inline-block;
+	float: left;
+	background-color: rgb(113,131,182);
+	width: 0.5in;
+	height: 0.0404in;
+	margin-top: 37px;
+}
+
+#smallbox2 {
+	display: inline-block;
+	float: left;
+	background-color: rgb(113,131,182);
+	width: 0.5in;
+	height: 0.0404in;
+	margin-top: 18px;
+}
+
+#h2top {
+	display: inline-block;
+	margin-left: 8px;
+}
+
+#h2 {
+	display: inline-block;
+	margin-left: 8px;
+	margin-top: -20px
+}
+
+.education, .designprojects, .experience, .designskills {
+	margin-top: -25px;
+}
+
+.contact p {
+	display: inline;
+}
+
+.contact {
+	display:inline-block;
+	float: right;
+	margin-top: 20px;
+	padding-right: 0.25in;
+}
+
+.contact:hover {
+	font-style: italic;
+}
